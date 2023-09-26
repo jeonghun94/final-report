@@ -1,7 +1,9 @@
+import Layout from "@/components/Layout";
+
 export default function Test() {
   return (
-    <div className="w-screen h-screen flex justify-center items-center">
+    <Layout>
       <h1>Test</h1>
-    </div>
+    </Layout>
   );
 }
